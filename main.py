@@ -115,7 +115,7 @@ if user_input:
 import qrcode
 from io import BytesIO
 
-deployed_url = "https://mentalhealthchatbot-meqxamf2gnxrybe3vqytkc.streamlit.app/"
+deployed_url = "https://mentalbot-rlzfqt7jxjdytt6yu3rpe6.streamlit.app/"
 
 qr = qrcode.QRCode(
     version=1,
