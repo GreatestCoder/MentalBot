@@ -1,3 +1,8 @@
+import langchain
+import streamlit as st
+
+st.write("LangChain:", langchain.__version__)
+
 from __future__ import annotations
 from typing import TYPE_CHECKING
 
@@ -7,7 +12,7 @@ else:
     class Callbacks:
         pass
 
-from langchain_huggingface.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
 from langchain_core.caches import InMemoryCache
