@@ -1,8 +1,3 @@
-import langchain
-import streamlit as st
-
-st.write("LangChain:", langchain.__version__)
-
 from __future__ import annotations
 from typing import TYPE_CHECKING
 
