@@ -8,7 +8,7 @@ else:
         pass
 
 from langchain_huggingface.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
 from langchain_core.caches import InMemoryCache
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
